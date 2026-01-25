@@ -18,5 +18,8 @@
 - Erste TODO.md erstellt mit strukturierter Aufgabenliste
 - Roadmap in roadmap.md angelegt und in Phasen gegliedert
 - Devlog gestartet (devlog.md)
+- Godot Projekt verbunden
+- Erste Scene eingefügt (Main.tscn)
+- Player.tscn eingefügt & Playtzhalter Sprite mit collision Shape hinzugefügt
 
 ## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren.

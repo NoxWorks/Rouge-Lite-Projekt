@@ -23,3 +23,8 @@ folder_colors={
 "res://assets/ui/": "orange",
 "res://scripts/": "green"
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+2d/sdf/scale=0
