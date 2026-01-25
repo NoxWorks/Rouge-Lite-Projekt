@@ -25,7 +25,7 @@
 - Camera2D in main.tscn eingefügt
 - Render einstellung von Linear zu Nearest geändert um das Rendern von Sprites Schöner zu machen
 - kollisionen.md Hinzugefügt um die Collision Layer und Masks zu Dokumentieren
-- Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr in kollisionen.md
+- Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr in kollisionen.md    [Zur Kollisionsübersicht](docs/kollisionen.md)
 - Platzhalter Tisch Sprite mit passenden Kollisionen Hinzugefügt
 
 ## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren
