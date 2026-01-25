@@ -9,7 +9,7 @@
 zoom = Vector2(4, 4)
 
 [node name="Player" parent="." instance=ExtResource("1_jjgbg")]
-debug = true
+debug = false
 
 [node name="Furniture" type="Node" parent="."]
 

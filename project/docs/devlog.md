@@ -38,6 +38,7 @@
 - kollisionen.md Hinzugefügt um die Collision Layer und Masks zu Dokumentieren
 - Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr in [Kollisionen.md](kollisionen.md)
 - Platzhalter Tisch Sprite mit passenden Kollisionen Hinzugefügt
+- docs überarbeitet und Lesbarer gemacht
 
 ----
 

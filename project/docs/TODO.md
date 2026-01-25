@@ -1,6 +1,6 @@
 # TODO-Liste – Roguelite-Projekt
 
-## Gameplay und Game Design
+## 🎮 Gameplay und Game Design
 
 - [ ] Spielerbewegung implementieren
 - [ ] Kollision mit Wänden und Gegnern testen
@@ -15,7 +15,7 @@
 - [ ] Raumtypen definieren (Kampf, Shop, Boss, Event)
 - [ ] Item-Rarity oder Item-Pools
 
-## Art und Assets
+## 🖌️ Art und Assets
 
 - [ ] Platzhalter-Sprites für Spieler und Gegner
 - [ ] Tileset für Dungeon erstellen
@@ -23,13 +23,14 @@
 - [ ] Menüs und HUD erstellen
 - [ ] Hub designen
 
-## Technik und Engine
+## 🛠️ Technik und Engine
 
-- [ ] Godot-Projektstruktur aufsetzen
+- [ ] Godot-Projektstruktur einsetzen
 - [ ] Scene-Management vorbereiten
 - [ ] GDScript-Dateien organisieren
+- [X] Notwendige Dokumentationen verschönert
 
-## Sonstiges und Github
+## 💾 Sonstiges und Github
 
 - [ ] README erweitern mit Screenshots oder Gifs
 - [ ] Projektstruktur auf GitHub dokumentieren
