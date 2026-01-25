@@ -1,16 +1,27 @@
-# Devlog – Roguelite-Projekt
+# 🎮 Devlog – Roguelite-Projekt
 
 - Dieses Devlog dokumentiert den Fortschritt des Roguelite-Projekts chronologisch. Jeder Eintrag enthält Datum, Beschreibung und ggf. technische Details oder Herausforderungen.
 
-## 02.01.2026 - Konzipierung und Ideensammlung
+----
+
+## 📄 Wichtige Links zu anderen Dokumentationen
+
+- Hier zur [TODO](TODO.md)
+- Hier zur [Roadmap](Roadmap.md)
+- Hier zu den [Kollisionen](kollisionen.md)
+
+----
+
+## 📅 02.01.2026 - Konzipierung und Ideensammlung
 
 - Ideen gesammelt und Frühe Konzipierung
+- Story Verlauf und Welt des Spiels
 
-## 24.01.2026 - Entwicklungsstart
+## 📅 24.01.2026 - Entwicklungsstart
 
 - GitHub-Repository erstellt (roguelite-project, privat)
 
-## 25.01.2026 – Projektstruktur und Planung & Dokumentation erweitert
+## 📅 25.01.2026 – Projektstruktur und Planung & Dokumentation erweitert
 
 - README verfasst mit Projektbeschreibung und Features
 - Ordnerstruktur angelegt: /project, /scripts, /assets, /docs
@@ -25,7 +36,9 @@
 - Camera2D in main.tscn eingefügt
 - Render einstellung von Linear zu Nearest geändert um das Rendern von Sprites Schöner zu machen
 - kollisionen.md Hinzugefügt um die Collision Layer und Masks zu Dokumentieren
-- Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr in kollisionen.md    [Zur Kollisionsübersicht](kollisionen.md)
+- Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr in [Kollisionen.md](kollisionen.md)
 - Platzhalter Tisch Sprite mit passenden Kollisionen Hinzugefügt
+
+----
 
 ## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren
