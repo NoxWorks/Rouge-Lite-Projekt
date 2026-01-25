@@ -1,0 +1,22 @@
+# Devlog – Roguelite-Projekt
+
+- Dieses Devlog dokumentiert den Fortschritt des Roguelite-Projekts chronologisch. Jeder Eintrag enthält Datum, Beschreibung und ggf. technische Details oder Herausforderungen.
+
+## 02.01.2026 - Konzipierung und Ideensammlung
+
+- Ideen gesammelt und Frühe Konzipierung
+
+## 24.01.2026 - Entwicklungsstart
+
+- GitHub-Repository erstellt (roguelite-project, privat)
+
+## 25.01.2026 – Projektstruktur und Planung & Dokumentation erweitert
+
+- README verfasst mit Projektbeschreibung und Features
+- Ordnerstruktur angelegt: /project, /scripts, /assets, /docs
+- .keep-Dateien hinzugefügt, um leere Ordner sichtbar zu machen
+- Erste TODO.md erstellt mit strukturierter Aufgabenliste
+- Roadmap in roadmap.md angelegt und in Phasen gegliedert
+- Devlog gestartet (devlog.md)
+
+## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren.
