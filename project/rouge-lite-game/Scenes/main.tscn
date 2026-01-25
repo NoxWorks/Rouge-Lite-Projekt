@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bup2regikdyea"]
+[gd_scene load_steps=3 format=3 uid="uid://bup2regikdyea"]
 
 [ext_resource type="PackedScene" uid="uid://cw1vlvfa38djp" path="res://Scenes/Player/player.tscn" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://pofu76v18xsg" path="res://Scenes/Environment/desk.tscn" id="2_bo1nx"]
 
 [node name="Main" type="Node2D"]
 
@@ -8,3 +9,9 @@
 zoom = Vector2(4, 4)
 
 [node name="Player" parent="." instance=ExtResource("1_jjgbg")]
+debug = true
+
+[node name="Furniture" type="Node" parent="."]
+
+[node name="Desk" parent="Furniture" instance=ExtResource("2_bo1nx")]
+position = Vector2(-104, -60)
