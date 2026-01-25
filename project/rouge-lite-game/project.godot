@@ -12,4 +12,14 @@ config_version=5
 
 config/name="RougeLite Game"
 config/features=PackedStringArray("4.5", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://assets/sprites/icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "pink",
+"res://assets/sprites/": "blue",
+"res://assets/tiles/": "gray",
+"res://assets/ui/": "orange",
+"res://scripts/": "green"
+}
