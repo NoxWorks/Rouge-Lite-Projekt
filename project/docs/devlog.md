@@ -21,5 +21,8 @@
 - Godot Projekt verbunden
 - Erste Scene eingefügt (Main.tscn)
 - Player.tscn eingefügt & Playtzhalter Sprite mit collision Shape hinzugefügt
+- Player Movement Code eingefügt und Input map erstellt (Up, Down, Left, Right,  etc...)
+- Camera2D in main.tscn eingefügt
+- Render einstellung von Linear zu Nearest geändert um das Rendern von Sprites Schöner zu machen
 
-## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren.
+## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren

@@ -1,5 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://cw1vlvfa38djp"]
+[gd_scene load_steps=6 format=3 uid="uid://cw1vlvfa38djp"]
 
+[ext_resource type="Script" uid="uid://bed3cvf0xbmsu" path="res://scripts/player/player.gd" id="1_a3d8c"]
 [ext_resource type="Texture2D" uid="uid://cla77norvc0ye" path="res://assets/sprites/Platzhalter/Player.png" id="1_uvnfx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a3d8c"]
@@ -33,12 +34,13 @@ animations = [{
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uvnfx"]
+radius = 4.0
 
 [node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_a3d8c")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xpcdj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 shape = SubResource("CircleShape2D_uvnfx")
