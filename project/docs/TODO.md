@@ -2,8 +2,9 @@
 
 ## 🎮 Gameplay und Game Design
 
-- [ ] Spielerbewegung implementieren
-- [ ] Kollision mit Wänden und Gegnern testen
+- [X] Simple Spielerbewegung implementieren
+- [ ] 'Perfektionierte' Spielerbewegung implementieren
+- [X] Kollision mit Wänden und Gegnern testen
 - [ ] Gegner-KI: Verhaltenstypen (Nahkampf, Fernkampf, Flucht)
 - [ ] Gegnerverhalten skizzieren
 - [ ] Dungeon-Generator mit zufälligen Räumen
@@ -17,7 +18,10 @@
 
 ## 🖌️ Art und Assets
 
-- [ ] Platzhalter-Sprites für Spieler und Gegner
+- [X] Platzhalter-Sprites für Spieler und Gegner
+- [ ] Finale Sprites für Spieler
+- [ ] Finale Sprites für Gegner
+- [X] Platzhalter Tileset
 - [ ] Tileset für Dungeon erstellen
 - [ ] UI-Elemente (z. B. Lebensanzeige)
 - [ ] Menüs und HUD erstellen
@@ -25,7 +29,7 @@
 
 ## 🛠️ Technik und Engine
 
-- [ ] Godot-Projektstruktur einsetzen
+- [X] Godot-Projektstruktur einsetzen
 - [ ] Scene-Management vorbereiten
 - [ ] GDScript-Dateien organisieren
 - [X] Notwendige Dokumentationen verschönert
@@ -34,9 +38,11 @@
 
 - [ ] README erweitern mit Screenshots oder Gifs
 - [ ] Projektstruktur auf GitHub dokumentieren
-- [ ] Input-Handling für Tastatur und/oder Controller
+- [ ] Input-Handling für Tastatur
+- [ ] Input-Handling für Controller
 - [ ] Save/Load-System vorbereiten
 - [ ] Debug-Overlay oder Logging-Funktion
-- [ ] Devlog starten (z. B. devlog.md)
+- [X] Debug Doc starten um Bugs und Probleme zu Dokumentieren
+- [X] Devlog starten (z. B. devlog.md)
 - [ ] Versionsnummern oder Meilensteine festlegen
 - [ ] Screenshots regelmäßig dokumentieren

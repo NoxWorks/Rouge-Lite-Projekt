@@ -9,6 +9,7 @@
 - Hier zur [TODO](TODO.md)
 - Hier zur [Roadmap](Roadmap.md)
 - Hier zu den [Kollisionen](kollisionen.md)
+- Hier zu den [Bugs](debug.md)
 
 ----
 
@@ -46,6 +47,8 @@
 - Platzhalter Gegner mit CharacterBody2D, Sprite & CollisionShape2D implementiert
 - Tilelyaer Map (Neue Version der TileMaps) mit Platzhalter Planken und Ziegeln eingefügt
 - Main scene verschönert mit der Tilemap verschönert
+- [Debug](debug.md) Doc erstellt mit dem Bugs, Fehler & Warnungen innerhalb Godots Dokumentiert werden
+- Ersten Bug in das debug Doc eingetragen
 
 ----
 
