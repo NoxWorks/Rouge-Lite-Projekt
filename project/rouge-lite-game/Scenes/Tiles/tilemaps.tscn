@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://dddy3mm4c28lr"]
+
+[ext_resource type="Texture2D" uid="uid://8s1nptnelx88" path="res://assets/tilesets/Background/Plank_Brick.png" id="1_3114s"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3114s"]
+texture = ExtResource("1_3114s")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_66vbp"]
+sources/0 = SubResource("TileSetAtlasSource_3114s")
+
+[node name="Planks_Bricks" type="TileMapLayer"]
+tile_set = SubResource("TileSet_66vbp")

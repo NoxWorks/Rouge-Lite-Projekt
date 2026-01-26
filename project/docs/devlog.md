@@ -12,16 +12,16 @@
 
 ----
 
-## 📅 02.01.2026 - Konzipierung und Ideensammlung
+## 📅 02.01.2026 - Konzipierung und Ideensammlung |Freitag
 
 - Ideen gesammelt und Frühe Konzipierung
 - Story Verlauf und Welt des Spiels
 
-## 📅 24.01.2026 - Entwicklungsstart
+## 📅 24.01.2026 - Entwicklungsstart |Samstag
 
 - GitHub-Repository erstellt (roguelite-project, privat)
 
-## 📅 25.01.2026 – Projektstruktur, Planung & Dokumentation erweitert
+## 📅 25.01.2026 – Projektstruktur, Planung & Dokumentation erweitert |Sonntag
 
 - [README](../../README.md) verfasst mit Projektbeschreibung und Features
 - Ordnerstruktur angelegt: /project, /scripts, /assets, /docs
@@ -31,20 +31,21 @@
 - Devlog gestartet (devlog.md)
 - Godot Projekt verbunden
 - Erste Scene eingefügt (Main.tscn)
-- Player.tscn eingefügt & [Playtzhalter](../rouge-lite-game/assets/sprites/Platzhalter/Player.png) Sprite mit collision Shape hinzugefügt
+- Player.tscn eingefügt & Platzhalter Sprite mit collision Shape hinzugefügt
 - Player Movement Code eingefügt und Input map erstellt (Up, Down, Left, Right,  etc...)
 - Camera2D in main.tscn eingefügt
 - Render einstellung von Linear zu Nearest geändert um das Rendern von Sprites Schöner zu machen
 - kollisionen.md Hinzugefügt um die Collision Layer und Masks zu Dokumentieren
-- Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr in [Kollisionen.md](kollisionen.md)
-- Platzhalter [Tisch](../rouge-lite-game/assets/sprites/Platzhalter/Tisch.png) Sprite mit passenden [Kollisionen](kollisionen.md) Hinzugefügt
+- Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr unter [Kollisionen](kollisionen.md)
+- Platzhalter  Sprite mit passenden [Kollisionen](kollisionen.md) Hinzugefügt
 - docs überarbeitet und Lesbarer gemacht
 
-## 📅 26.01.2026 – Kollisionen, Gegner, Tilemap
+## 📅 26.01.2026 – Kollisionen, Gegner, Tilemap |Montag
 
-- Kollisionen vom [Tisch](../rouge-lite-game/assets/sprites/Platzhalter/Tisch.png) geändert
-- Platzhalter [Gegner](../rouge-lite-game/assets/sprites/Platzhalter/Gegner.png) Sprite eingefügt
-- Platzhalter Gegner mit CharacterBody2D und Collision shape2D implementiert
+- Kollisionen vom Tisch geändert & Platzhalter Tisch Sprite eingefügt
+- Platzhalter Gegner mit CharacterBody2D, Sprite & CollisionShape2D implementiert
+- Tilelyaer Map (Neue Version der TileMaps) mit Platzhalter Planken und Ziegeln eingefügt
+- Main scene verschönert mit der Tilemap verschönert
 
 ----
 
