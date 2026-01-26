@@ -1,5 +1,16 @@
 # 🗺️ Roadmap – Roguelite-Projekt
 
+----
+
+## 📄 Wichtige Links zu anderen Dokumentationen
+
+- Hier zur [TODO](TODO.md)
+- Hier zu den [Kollisionen](kollisionen.md)
+- Hier zum [Devlog](devlog.md)
+- Hier zurück zum [ReadMe](../../README.md)
+
+----
+
 ## 🧱 Phase 1: Grundfunktionen und Engine-Struktur
 
 ### 🎮 Gameplay Phase1

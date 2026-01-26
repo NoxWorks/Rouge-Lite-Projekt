@@ -18,8 +18,8 @@
 
 | Datum        | Kategorie        | Art      | Problem                                          | Status   | Link                                                                   |
 |--------------|------------------|----------|--------------------------------------------------|----------|------------------------------------------------------------------------|
-| 26.01.26     | Ressourcen       | WARNING  | Invalide UID für Sprites                         |   [x]    | [Invalide UIDs bei Sprites](#invalide-uids-bei-sprites)                |
-| 26.01.26     | Editor           | ERROR    | Externer Editor konnte nicht gefunden werden     |   [x]    | [Externer Editor nicht gefunden](#externer-editor-nicht-gefunden)      |
+| 26.01.26     | Ressourcen       | WARNING  | Invalide UID für Sprites                         |   [X]    | [Invalide UIDs bei Sprites](#invalide-uids-bei-sprites)                |
+| 26.01.26     | Editor           | ERROR    | Externer Editor konnte nicht gefunden werden     |   [X]    | [Externer Editor nicht gefunden](#externer-editor-nicht-gefunden)      |
 | xx.xx.xx     | xyz              |          | xyz                                              |   [ ]    |                                                                        |
 | xx.xx.xx     | xyz              |          | xyz                                              |   [ ]    |                                                                        |
 | xx.xx.xx     | xyz              |          | xyz                                              |   [ ]    |                                                                        |

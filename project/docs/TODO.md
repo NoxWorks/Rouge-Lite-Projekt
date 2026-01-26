@@ -1,5 +1,16 @@
 # TODO-Liste – Roguelite-Projekt
 
+----
+
+## 📄 Wichtige Links zu anderen Dokumentationen
+
+- Hier zur [Roadmap](Roadmap.md)
+- Hier zu den [Kollisionen](kollisionen.md)
+- Hier zum [Devlog](devlog.md)
+- Hier zurück zum [ReadMe](../../README.md)
+
+----
+
 ## 🎮 Gameplay und Game Design
 
 - [X] Simple Spielerbewegung implementieren
