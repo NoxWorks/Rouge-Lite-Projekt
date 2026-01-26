@@ -23,4 +23,5 @@ Es wird von mir allein in der Godot Game Engine Entwickelt und nutzt die eingeba
 - Hier zur [Roadmap](project/docs/Roadmap.md)  
 - Hier zur [TODO](project/docs/TODO.md)  
 - Hier zum [Devlog](project/docs/devlog.md)  
-- Hier zu den [Kollisionen](project/docs/kollisionen.md)  
+- Hier zu den [Kollisionen](project/docs/kollisionen.md)
+- Hier zu den [Bugs](debug.md)
