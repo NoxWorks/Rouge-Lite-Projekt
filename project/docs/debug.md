@@ -18,8 +18,8 @@
 
 | Datum        | Kategorie        | Art      | Problem                                          | Status   | Link                                                                   |
 |--------------|------------------|----------|--------------------------------------------------|----------|------------------------------------------------------------------------|
-| 26.01.26     | Ressourcen       | WARNING  | Invalide UID für Sprites                         |   [X]    | [Invalide UIDs bei Sprites](#invalide-uids-bei-sprites)                |
-| 26.01.26     | Editor           | ERROR    | Externer Editor konnte nicht gefunden werden     |   [X]    | [Externer Editor nicht gefunden](#externer-editor-nicht-gefunden)      |
+| 26.01.26     | Ressourcen       | WARNING  | Invalide UID für Sprites                         |   [x]    | [Invalide UIDs bei Sprites](#invalide-uids-bei-sprites)                |
+| 26.01.26     | Editor           | ERROR    | Externer Editor konnte nicht gefunden werden     |   [x]    | [Externer Editor nicht gefunden](#externer-editor-nicht-gefunden)      |
 | xx.xx.xx     | xyz              |          | xyz                                              |   [ ]    |                                                                        |
 | xx.xx.xx     | xyz              |          | xyz                                              |   [ ]    |                                                                        |
 | xx.xx.xx     | xyz              |          | xyz                                              |   [ ]    |                                                                        |
@@ -34,7 +34,7 @@
 - 📝 __Beschreibung:__ Beim Öffnen mehrerer Szenen wurden Warnungen angezeigt, dass die UID von externen Ressourcen ungültig sei
 - 💥 __Fehlermeldung:__ ⚠️ WARNING: ext_resource, invalid UID – using text path instead
 - 🔍 __Ursache:__ Sprites wurden im explorer verschoben oder neu importiert, wodurch die UID in den .tscn‑Dateien nicht mehr gültig war
-- 📌 __Notizen:__ Beim Verschieben von Dateien immer Godot verwenden, nicht den Explorer (Es sei denn es ist eine Datei die nicht in Godot genutzt wird)
+- 📌 __Notizen:__ Beim Verschieben von Dateien im Godot verzeichnis immer Godot verwenden, nicht den Explorer
 
 ### Externer Editor nicht gefunden
 
