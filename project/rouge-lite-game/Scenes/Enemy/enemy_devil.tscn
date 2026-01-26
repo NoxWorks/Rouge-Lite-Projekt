@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://visd43mukqgp"]
+
+[ext_resource type="Texture2D" uid="uid://d3qtv67w56uwv" path="res://assets/sprites/Platzhalter/Gegner.png" id="1_palye"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_palye"]
+atlas = ExtResource("1_palye")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ojd8p"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_palye")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r0cm0"]
+
+[node name="Enemy_Devil" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ojd8p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_r0cm0")

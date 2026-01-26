@@ -1,17 +1,22 @@
-[gd_scene load_steps=3 format=3 uid="uid://bup2regikdyea"]
+[gd_scene load_steps=4 format=3 uid="uid://bup2regikdyea"]
 
 [ext_resource type="PackedScene" uid="uid://cw1vlvfa38djp" path="res://Scenes/Player/player.tscn" id="1_jjgbg"]
 [ext_resource type="PackedScene" uid="uid://pofu76v18xsg" path="res://Scenes/Environment/desk.tscn" id="2_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://visd43mukqgp" path="res://Scenes/Enemy/enemy_devil.tscn" id="3_8gbba"]
 
 [node name="Main" type="Node2D"]
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[node name="Ysort" type="Node" parent="."]
+
+[node name="Player" parent="Ysort" instance=ExtResource("1_jjgbg")]
+
+[node name="Camera2D" type="Camera2D" parent="Ysort/Player"]
 zoom = Vector2(4, 4)
 
-[node name="Player" parent="." instance=ExtResource("1_jjgbg")]
-debug = false
+[node name="Furniture" type="Node" parent="Ysort"]
 
-[node name="Furniture" type="Node" parent="."]
-
-[node name="Desk" parent="Furniture" instance=ExtResource("2_bo1nx")]
+[node name="Desk" parent="Ysort/Furniture" instance=ExtResource("2_bo1nx")]
 position = Vector2(-104, -60)
+
+[node name="Enemy_Devil" parent="Ysort" instance=ExtResource("3_8gbba")]
+position = Vector2(120, -32)
