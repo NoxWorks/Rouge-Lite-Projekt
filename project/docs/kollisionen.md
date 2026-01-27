@@ -8,6 +8,7 @@
 | 4     | Wall        | Wände, Hindernisse               |
 | 5     | Door        | Türen, Übergänge                 |
 | 6     | Switch      | Buttons, Schalter                |
+| 7     | Teleporter  | Teleporter für LVL ende/ anders  |
 
 ----
 
