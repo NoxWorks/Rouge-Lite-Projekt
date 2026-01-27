@@ -6,10 +6,16 @@
 
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
-- Hier zur [TODO](TODO.md)
-- Hier zur [Roadmap](Roadmap.md)
-- Hier zu den [Kollisionen](kollisionen.md)
-- Hier zum [Devlog](devlog.md)
+- Hier zur [TODO](../TODO.md)
+
+- Hier zur [Roadmap](../Roadmap.md)
+
+- Hier zu den [Kollisionen](../kollisionen.md)
+
+- Hier zum [Devlog](../devlog.md)
+
+- Hier zu den [Assets](../assets.md)
+
 - Hier zurück zum [ReadMe](../../../README.md)
 
 ## 📃 Übersicht aller Probleme

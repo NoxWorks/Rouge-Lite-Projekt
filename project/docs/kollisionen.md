@@ -15,9 +15,15 @@
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
 - Hier zur [TODO](TODO.md)
+
 - Hier zur [Roadmap](Roadmap.md)
+
 - Hier zum [Devlog](devlog.md)
+
 - Hier zu den [Bugs](Debugging/debug.md)
+
+- Hier zu den [Assets](assets.md)
+
 - Hier zurück zum [ReadMe](../../README.md)
 
 ## 🔧 Grund der Dokumentation
