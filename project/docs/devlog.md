@@ -9,7 +9,8 @@
 - Hier zur [TODO](TODO.md)
 - Hier zur [Roadmap](Roadmap.md)
 - Hier zu den [Kollisionen](kollisionen.md)
-- Hier zu den [Bugs](debug.md)
+- Hier zu den [Bugs](Debugging/debug.md)
+- Hier zurück zum [ReadMe](../../README.md)
 
 ----
 

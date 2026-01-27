@@ -9,6 +9,16 @@
 | 5     | Door        | Türen, Übergänge                 |
 | 6     | Switch      | Buttons, Schalter                |
 
+----
+
+## 📄 Wichtige Links zu anderen Dokumentationen
+
+- Hier zur [TODO](TODO.md)
+- Hier zur [Roadmap](Roadmap.md)
+- Hier zum [Devlog](devlog.md)
+- Hier zu den [Bugs](Debugging/debug.md)
+- Hier zurück zum [ReadMe](../../README.md)
+
 ## 🔧 Grund der Dokumentation
 
 Die Kollisionen werden in dieser Tabelle Festgehalten um Zukünftige änderungen/ergänzungenmit dem spiel leichter zu vergleichen,  
