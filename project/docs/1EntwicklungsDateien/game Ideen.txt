@@ -6,3 +6,6 @@ Gameplay:
 -Item Research
 --Nach dem ersten Run erhält man ein Item mit dem man ein Item mit dem man andere Items erforschen kann um deren Effekte zu erfahren.
 --Um den Effekt zu erfahren muss man entweder X anzahl an genern Töten oder eine gewisse anzahl an ebenen abschließen
+
+-Item Crafting
+--Man kann durch das besiegen von Bossen recoursen erhalten um stärkere Waffen, Rüstung, etc.. zu craften

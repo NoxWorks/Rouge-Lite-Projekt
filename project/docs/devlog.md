@@ -51,6 +51,12 @@
 - [Debug](debug.md) Doc erstellt mit dem Bugs, Fehler & Warnungen innerhalb Godots Dokumentiert werden
 - Ersten Bug in das debug Doc eingetragen
 
+## 📅 27.01.2026 – Debug Archiv, Testlevel |Dienstag
+
+- Ein [Archiv](Debugging/debug.md) im debug doc erstellt mit dem alte bugs übersichtlicher sortiert- und gelagert werden
+- Ordnerstrukture änderungen vorgenommen (.keep dateien entfernt wenn andere Dateien schon vorhanden sind)
+-
+
 ----
 
 ## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren
