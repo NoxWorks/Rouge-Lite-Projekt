@@ -42,8 +42,6 @@
 - [ ] UI-Elemente (z. B. Lebensanzeige)
 - [ ] Menüs und HUD erstellen
 - [ ] Hub designen
-- [ ] Im Assets Doc die Charactere in Freund & Feind Kategorisieren
-- [ ] Die Sprite Ausgabe im Asstes Doc vergrößern (Aktuell in Original Auflösung (16x16 | 32x32))
 
 ## 🛠️ Technik und Engine
 
@@ -65,3 +63,12 @@
 - [ ] Begriff Doc mit den Nötigen Daten füllen
 - [ ] Versionsnummern oder Meilensteine festlegen
 - [ ] Screenshots regelmäßig dokumentieren
+- [ ] Setup.md erstellen um alle Vscode einstellungen & Plugins die für die Entwicklung genutzt werden zu Dokumentieren
+- [ ] Eine Sprite Bibliothek zum Anzeigen aller Sprites im Spiel die im asset doc aufgelistet sind erstellen
+- [ ] Die verlinkung der Sprites im Asset doc auf die Sprite Biblothek ändern
+- [ ] Im Assets Doc die Charactere in Freund & Feind Kategorisieren
+- [ ] Automatisierte Vorschau später prüfen
+
+### Externe Programme für die Entwicklung & QoL
+
+- [ ] Automatisches Python Script zum Skalieren der Sprites in der Sprite Bibliothek

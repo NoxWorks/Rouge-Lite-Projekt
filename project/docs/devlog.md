@@ -51,7 +51,7 @@
 
 ## 📅 26.01.2026 – Kollisionen, Gegner, Tilemap |Montag
 
-- Kollisionen vom Tisch geändert & Platzhalter Tisch Sprite eingefügt
+- [Kollisionen](kollisionen.md) vom Tisch geändert & Platzhalter Tisch Sprite eingefügt
 - Platzhalter Gegner mit CharacterBody2D, Sprite & CollisionShape2D implementiert
 - Tilelyaer Map (Neue Version der TileMaps) mit Platzhalter Planken und Ziegeln eingefügt
 - Main scene verschönert mit der Tilemap verschönert
@@ -64,13 +64,15 @@
 - Ordnerstrukture änderungen vorgenommen (.keep dateien entfernt wenn andere Dateien schon vorhanden sind)
 - Start eines Debuglevels zum testen von Zukünftigen features
 - Platzhalter Blutspritzer Sprite eingefügt
-- Tilemap mit Kollisionen erweitert (Manche Tiles haben Kollision & manche nicht)
+- Tilemap mit [Kollisionen](kollisionen.md) erweitert (Manche Tiles haben Kollision & manche nicht)
 - Level mit Blutspritzer Sprites verschönert
 - Ysort im Testlevel hinzugefügt
 - Exit Teleporter mit passendem Sprite eingefügt
 - Code zum beenden & neustraten des Levels in den "Teleporter" eingefügt
 - Kollisionslayer für Teleporter eingefügt und in die passende [Kollisionen](kollisionen.md) Tabelle Hinzugefügt
-- Ein Asset Lizensierungs Doc erstellt um die Assets im spiel zu Dokumentieren
+- Ein [Asset](assets.md) Lizensierungs Doc erstellt um die Assets im spiel zu Dokumentieren
+- .gitignor mit .vscode/ erweitert um temporäre Editor dateien im projektordner zu vermeiden
+- Eine Asset Library gestartet um die Assets (die im [Asset](assets.md) doc) gespeichert werden Leichter anzuzeigen
 
 ----
 
