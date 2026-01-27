@@ -1,6 +1,6 @@
-# ⚠️ Hier werden Warnungen, Error & Bugs Dokumentiert die während des Entwickelns des Spiels auftreten
+# ⚠️ Hier werden Warnungen, Error & Bugs Dokumentiert die während der Entwicklung auftreten 
 
-- Es werden nur Screipt error eingefügt wenn diese "Kompliziert" zu debuggen sind. Also keine Syntax fehler
+- Es werden nur Script error eingefügt wenn diese "Kompliziert" zu debuggen sind. Also keine Syntax fehler
 
 ----
 
