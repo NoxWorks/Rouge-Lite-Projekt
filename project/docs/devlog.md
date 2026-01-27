@@ -59,7 +59,10 @@
 - Start eines Debuglevels zum testen von Zukünftigen features
 - Platzhalter Blutspritzer Sprite eingefügt
 - Tilemap mit Kollisionen erweitert (Manche Tiles haben Kollision & manche nicht)
+- Level mit Blutspritzer Sprites verschönert
 - Ysort im Testlevel hinzugefügt
+- Exit Teleporter mit passendem Sprite eingefügt
+- Code zum beenden & neustraten des Levels in den "Teleporter" eingefügt
 
 ----
 
