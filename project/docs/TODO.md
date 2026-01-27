@@ -38,6 +38,8 @@
 - [ ] UI-Elemente (z. B. Lebensanzeige)
 - [ ] Menüs und HUD erstellen
 - [ ] Hub designen
+- [ ] Im Assets Doc die Charactere in Freund & Feind Kategorisieren
+- [ ] Die Sprite Ausgabe im Asstes Doc vergrößern (Aktuell in Original Auflösung (16x16 | 32x32))
 
 ## 🛠️ Technik und Engine
 
@@ -56,5 +58,6 @@
 - [ ] Debug-Overlay oder Logging-Funktion
 - [X] Debug Doc starten um Bugs und Probleme zu Dokumentieren
 - [X] Devlog starten (z. B. devlog.md)
+- [ ] Begriff Doc mit den Nötigen Daten füllen
 - [ ] Versionsnummern oder Meilensteine festlegen
 - [ ] Screenshots regelmäßig dokumentieren

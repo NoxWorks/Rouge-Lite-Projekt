@@ -63,6 +63,8 @@
 - Ysort im Testlevel hinzugefügt
 - Exit Teleporter mit passendem Sprite eingefügt
 - Code zum beenden & neustraten des Levels in den "Teleporter" eingefügt
+- Kollisionslayer für Teleporter eingefügt und in die passende [Kollisionen](kollisionen.md) Tabelle Hinzugefügt
+- Ein Asset Lizensierungs Doc erstellt um die Assets im spiel zu Dokumentieren
 
 ----
 
