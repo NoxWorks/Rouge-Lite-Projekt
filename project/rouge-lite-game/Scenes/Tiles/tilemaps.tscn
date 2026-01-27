@@ -9,11 +9,15 @@ texture = ExtResource("1_3114s")
 2:0/0 = 0
 3:0/0 = 0
 0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:1/0 = 0
 3:1/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_66vbp"]
+physics_layer_0/collision_layer = 8
+physics_layer_0/collision_mask = 7
 sources/0 = SubResource("TileSetAtlasSource_3114s")
 
 [node name="Planks_Bricks" type="TileMapLayer"]

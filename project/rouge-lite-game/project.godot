@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="RougeLite Game"
-run/main_scene="uid://bup2regikdyea"
+config/description="Ein Dungeon Crawler & RougeLite im Stil von Spielen wie The Binding of Isaac oder Enter the Gungeon. Es wird von mir allein in der Godot Game Engine Entwickelt und nutzt die eingebaute Sprache der engine GDscript"
+config/version="0.1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://assets/sprites/icon.svg"
 

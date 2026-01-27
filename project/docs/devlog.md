@@ -36,6 +36,7 @@
 - Player.tscn eingefügt & Platzhalter Sprite mit collision Shape hinzugefügt
 - Player Movement Code eingefügt und Input map erstellt (Up, Down, Left, Right,  etc...)
 - Camera2D in main.tscn eingefügt
+- Ysort im Level eingefügt
 - Render einstellung von Linear zu Nearest geändert um das Rendern von Sprites Schöner zu machen
 - kollisionen.md Hinzugefügt um die Collision Layer und Masks zu Dokumentieren
 - Collision Layer und Masks namentlich Hinzugefügt | Dazu mehr unter [Kollisionen](kollisionen.md)
@@ -55,7 +56,10 @@
 
 - Ein [Archiv](Debugging/debug.md) im debug doc erstellt mit dem alte bugs übersichtlicher sortiert- und gelagert werden
 - Ordnerstrukture änderungen vorgenommen (.keep dateien entfernt wenn andere Dateien schon vorhanden sind)
--
+- Start eines Debuglevels zum testen von Zukünftigen features
+- Platzhalter Blutspritzer Sprite eingefügt
+- Tilemap mit Kollisionen erweitert (Manche Tiles haben Kollision & manche nicht)
+- Ysort im Testlevel hinzugefügt
 
 ----
 
