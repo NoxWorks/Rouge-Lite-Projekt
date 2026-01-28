@@ -13,6 +13,8 @@
 
 - Hier zu den [Bugs](Debugging/debug.md)
 
+- Hier zu [Dungeon Generierungs Algorithmen](dungeon.md)
+
 - Hier zurück zum [ReadMe](../../README.md)
 
 ----

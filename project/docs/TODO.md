@@ -12,6 +12,8 @@
 
 - Hier zu den [Assets](assets.md)
 
+- Hier zu [Dungeon Generierungs Algorithmen](dungeon.md)
+
 - Hier zurück zum [ReadMe](../../README.md)
 
 ----
@@ -19,10 +21,11 @@
 ## 🎮 Gameplay und Game Design
 
 - [X] Simple Spielerbewegung implementieren
-- [ ] 'Perfektionierte' Spielerbewegung implementieren
+- [ ] Finale Spielerbewegung implementieren
 - [X] Kollision mit Wänden und Gegnern testen
-- [ ] Gegner-KI: Verhaltenstypen (Nahkampf, Fernkampf, Flucht)
+- [ ] Simple Gegner-KI: Verhaltenstypen (Nahkampf, Fernkampf, Flucht)
 - [ ] Gegnerverhalten skizzieren
+- [ ] Finale Gegner-KI: Verhaltenstypen (Nahkampf, Fernkampf, Flucht)
 - [ ] Dungeon-Generator mit zufälligen Räumen
 - [ ] Hub bereich erstellen
 - [ ] Item crafting
@@ -34,11 +37,15 @@
 
 ## 🖌️ Art und Assets
 
-- [X] Platzhalter-Sprites für Spieler und Gegner
+- [X] Platzhalter-Sprite für Spieler und Gegner
 - [ ] Finale Sprites für Spieler
 - [ ] Finale Sprites für Gegner
 - [X] Platzhalter Tileset
 - [ ] Tileset für Dungeon erstellen
+- [X] PLatzhalter Endpunkt
+- [ ] Finale/r Endpunkt/e
+- [ ] Platzhalter Startpunkt
+- [ ] Finale/r Startpunkt/e
 - [ ] UI-Elemente (z. B. Lebensanzeige)
 - [ ] Menüs und HUD erstellen
 - [ ] Hub designen
@@ -49,17 +56,20 @@
 - [ ] Scene-Management vorbereiten
 - [ ] GDScript-Dateien organisieren
 - [X] Notwendige Dokumentationen verschönert
+- [ ] Mögliche Dungeon Algorithmen testen und in das [Dungeon](dungeon.md) Doc eintragen
 
 ## 💾 Sonstiges und Github
 
-- [ ] README erweitern mit Screenshots oder Gifs
+- [ ] [README](../../README.md) erweitern mit Screenshots oder Gifs
 - [ ] Projektstruktur auf GitHub dokumentieren
 - [ ] Input-Handling für Tastatur
 - [ ] Input-Handling für Controller
 - [ ] Save/Load-System vorbereiten
 - [ ] Debug-Overlay oder Logging-Funktion
-- [X] Debug Doc starten um Bugs und Probleme zu Dokumentieren
-- [X] Devlog starten (z. B. devlog.md)
+- [X] [Debug](Debugging/debug.md) Doc starten um Bugs und Probleme zu Dokumentieren
+- [X] [Devlog](devlog.md) starten (z. B. devlog.md)
+- [X] [Dungeon Algorithmus](dungeon.md) Doc erstellen um möglich Algorithmen zu dokumentieren
+- [ ] Style GuideLine Doc mit nötigen Daten füllen
 - [ ] Begriff Doc mit den Nötigen Daten füllen
 - [ ] Versionsnummern oder Meilensteine festlegen
 - [ ] Screenshots regelmäßig dokumentieren
@@ -68,6 +78,7 @@
 - [ ] Die verlinkung der Sprites im Asset doc auf die Sprite Biblothek ändern
 - [ ] Im Assets Doc die Charactere in Freund & Feind Kategorisieren
 - [ ] Automatisierte Vorschau später prüfen
+- [ ] Dungeon Algorithmus doc mit eigener Seite pro Algorithmus erweitern
 
 ### Externe Programme für die Entwicklung & QoL
 

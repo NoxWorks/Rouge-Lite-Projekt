@@ -16,6 +16,8 @@
 
 - Hier zu den [Assets](assets.md)
 
+- Hier zu [Dungeon Generierungs Algorithmen](dungeon.md)
+
 - Hier zurück zum [ReadMe](../../README.md)
 
 ----
@@ -73,6 +75,11 @@
 - Ein [Asset](assets.md) Lizensierungs Doc erstellt um die Assets im spiel zu Dokumentieren
 - .gitignor mit .vscode/ erweitert um temporäre Editor dateien im projektordner zu vermeiden
 - Eine Asset Library gestartet um die Assets (die im [Asset](assets.md) doc) gespeichert werden Leichter anzuzeigen
+
+## 📅 28.01.2026 - Dungeon Generierung v4 |Mittwoch
+
+- Doc eingefügt um die [Dungeonstruktur](dungeon.md) für das Spiel vorzubereiten
+- 5 mögliche generierungs Algorithmen eingefügt
 
 ----
 
