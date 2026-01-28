@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=4 uid="uid://bqrun48stm68q"]
+[gd_scene load_steps=7 format=4 uid="uid://bqrun48stm68q"]
 
 [ext_resource type="PackedScene" uid="uid://dddy3mm4c28lr" path="res://Scenes/Tiles/tilemaps.tscn" id="1_giis5"]
 [ext_resource type="PackedScene" uid="uid://cewowt37hqcfr" path="res://Scenes/Environment/Gore/blood_splatter_00.tscn" id="2_k48cs"]
 [ext_resource type="PackedScene" uid="uid://cw1vlvfa38djp" path="res://Scenes/Player/player.tscn" id="2_lc5w2"]
 [ext_resource type="PackedScene" uid="uid://pofu76v18xsg" path="res://Scenes/Environment/desk.tscn" id="3_k48cs"]
 [ext_resource type="PackedScene" uid="uid://bgarh47pdtykq" path="res://Scenes/LVL Assets/exit_portal.tscn" id="5_mvkwj"]
+[ext_resource type="PackedScene" uid="uid://visd43mukqgp" path="res://Scenes/Enemy/enemy_devil.tscn" id="6_624sa"]
 
 [node name="LVL_DEBUG" type="Node2D"]
 
@@ -45,3 +46,8 @@ position = Vector2(-143, -4)
 [node name="Desk2" parent="Ysort/Furniture" instance=ExtResource("3_k48cs")]
 position = Vector2(338, -2)
 scale = Vector2(1.4977202, 1.5)
+
+[node name="Enemys" type="Node" parent="Ysort"]
+
+[node name="Enemy_Devil" parent="Ysort/Enemys" instance=ExtResource("6_624sa")]
+position = Vector2(-117, -138)
