@@ -6,17 +6,11 @@
 
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
-- Hier zur [TODO](../TODO.md)
-
-- Hier zur [Roadmap](../Roadmap.md)
-
-- Hier zu den [Kollisionen](../kollisionen.md)
-
-- Hier zum [Devlog](../devlog.md)
-
-- Hier zu den [Assets](../assets.md)
+- Hier zu den [Dokumentationen](../../doc.md)
 
 - Hier zurück zum [ReadMe](../../../README.md)
+
+----
 
 ## 📃 Übersicht aller Probleme
 
@@ -28,14 +22,15 @@
 | 26.01.26 | Editor      | ERROR   | Externer Editor konnte nicht gefunden werden          |   ✅   | [Externer Editor nicht gefunden](Archiv/externer_editor_nicht_gefunden.md)                         |
 | 27.01.26 | Editor      | VISUAL  | Formatierung wurde durch Emojis 'Verschlechtert'      |   🚫   | [Formatierung durch Emojis schlechter](Archiv/formatierung_durch_emojis_schlechter.md)             |
 | 27.01.26 | Engine      | ERROR   | Child nodes während eines Physics callback aufgerufen |   ✅   | [Unerlaubte aktion während Physics callback](Archiv/unerlaubte_aktion_während_physics_callback.md) |
+|          |             |         |                                                       |        |                                                                                                    |
 
 ----
 
 ## Status Icon Übersicht
 
-| Status | Beschreibung         |
-|--------|----------------------|
-| ✅     | Problem gelöst       |
-| ⏳     | Wird bearbeitet      |
-| 🔧     | In Arbeit            |
-| 🚫     | Ignoriert            |
+| Status | Beschreibung                 |
+|--------|------------------------------|
+| ✅     | Problem gelöst               |
+| ⏳     | Wird bearbeitet              |
+| 🔧     | In Arbeit                    |
+| 🚫     | Ignoriert /Kein fix geplant  |

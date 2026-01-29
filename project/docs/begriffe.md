@@ -5,3 +5,11 @@
 - Diese Seite ist noch in Arbeit...
 
 ----
+
+## 📄 Wichtige Links zu anderen Dokumentationen
+
+- Hier zu den [Dokumentationen](../doc.md)
+
+- Hier zurück zum [ReadMe](../../README.md)
+
+----

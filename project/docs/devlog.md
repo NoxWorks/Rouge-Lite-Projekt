@@ -6,19 +6,7 @@
 
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
-- Hier zur [TODO](TODO.md)
-
-- Hier zur [Roadmap](Roadmap.md)
-
-- Hier zu den [Kollisionen](kollisionen.md)
-
-- Hier zu den [Bugs](Debugging/debug.md)
-
-- Hier zu den [Assets](assets.md)
-
-- Hier zu [Dungeon Generierungs Algorithmen](dungeon.md)
-
-- Hier zu den [Gegnern](Gegner/gegner.md)
+- Hier zu den [Dokumentationen](../doc.md)
 
 - Hier zurück zum [ReadMe](../../README.md)
 
@@ -84,11 +72,18 @@
 - 5 mögliche generierungs Algorithmen eingefügt
 - Style Guide Doc estellt um Formatierungs regelungen zu vereinfachen
 
-## 📅 29.01.2026 - Level erweiterung, Gegner Ki  |Donnerstag
+## 📅 29.01.2026 - Dokumentations Überarbeitung, Gegner Ki Skizzierung  |Donnerstag
 
 - Doc erstellt um gegnerverhalten und Variationen zu Dokumentieren
 - Gegner verhalten in eigenem Doc Skizziert und vorgeplant
 - TODO umarbeitung und erwiterung
+- Jedes Doc überarbeitet
+- Links zu den Anderen Docs durch doc übersicht verkleinert
+- Doc zum Dokumentieren und auflisten aller Docs im projekt
+
+## 📅 30.01.2026 - Dokumentations vervollständigung     |Freitag
+
+- Noch geplant
 
 ----
 

@@ -1,18 +1,12 @@
 # 🗺️ Roadmap – Roguelite-Projekt
 
+- Diese Roadmap ist ein Ungefährer ablauf der Entwicklung dieses Projektes
+
 ----
 
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
-- Hier zur [TODO](TODO.md)
-
-- Hier zu den [Kollisionen](kollisionen.md)
-
-- Hier zum [Devlog](devlog.md)
-
-- Hier zu den [Bugs](Debugging/debug.md)
-
-- Hier zu den [Assets](assets.md)
+- Hier zu den [Dokumentationen](../doc.md)
 
 - Hier zurück zum [ReadMe](../../README.md)
 

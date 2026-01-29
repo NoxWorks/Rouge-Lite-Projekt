@@ -2,21 +2,11 @@
 
 Diese Seite dokumentiert die geplante Struktur und das Verhalten von Gegnern im Roguelite-Projekt. Ziel ist es, eine modulare, erweiterbare Grundlage zu schaffen, die sowohl die Implementierung als auch spätere Erweiterungen erleichtert.
 
+----
+
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
-- Hier zur [TODO](../TODO.md)
-
-- Hier zur [Roadmap](../Roadmap.md)
-
-- Hier zu den [Kollisionen](../kollisionen.md)
-
-- Hier zum [Devlog](../devlog.md)
-
-- Hier zu den [Bugs](../Debugging/debug.md)
-
-- Hier zu den [Assets](../assets.md)
-
-- Hier zu [Dungeon Generierungs Algorithmen](../dungeon.md)
+- Hier zu den [Dokumentationen](../../doc.md)
 
 - Hier zurück zum [ReadMe](../../../README.md)
 

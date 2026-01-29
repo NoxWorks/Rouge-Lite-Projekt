@@ -3,17 +3,11 @@
 - Diese Datei dient der Übersicht und Nachverfolgbarkeit aller verwendeten grafischen Assets im Projekt.  
  Sie hilft dabei, Credits korrekt zu vergeben, Lizenzbedingungen einzuhalten und die visuelle Struktur des Spiels nachvollziehbar zu halten.
 
+----
+
 ## 📄 Wichtige Links zu anderen Dokumentationen
 
-- Hier zur [Roadmap](Roadmap.md)
-
-- Hier zu den [Kollisionen](kollisionen.md)
-
-- Hier zum [Devlog](devlog.md)
-
-- Hier zu den [Bugs](Debugging/debug.md)
-
-- Hier zu [Dungeon Generierungs Algorithmen](dungeon.md)
+- Hier zu den [Dokumentationen](../doc.md)
 
 - Hier zurück zum [ReadMe](../../README.md)
 
