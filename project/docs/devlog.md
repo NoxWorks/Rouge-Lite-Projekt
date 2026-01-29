@@ -18,6 +18,8 @@
 
 - Hier zu [Dungeon Generierungs Algorithmen](dungeon.md)
 
+- Hier zu den [Gegnern](Gegner/gegner.md)
+
 - Hier zurück zum [ReadMe](../../README.md)
 
 ----
@@ -81,6 +83,12 @@
 - Doc eingefügt um die [Dungeonstruktur](dungeon.md) für das Spiel vorzubereiten
 - 5 mögliche generierungs Algorithmen eingefügt
 - Style Guide Doc estellt um Formatierungs regelungen zu vereinfachen
+
+## 📅 29.01.2026 - Level erweiterung, Gegner Ki  |Donnerstag
+
+- Doc erstellt um gegnerverhalten und Variationen zu Dokumentieren
+- Gegner verhalten in eigenem Doc Skizziert und vorgeplant
+- TODO umarbeitung und erwiterung
 
 ----
 
