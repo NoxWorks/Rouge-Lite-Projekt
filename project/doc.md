@@ -27,5 +27,5 @@
 |-----------------|-------------------------------------|-----------------------------------------|
 | Style Guide     | Richtlinien zum verfassen der Docs  | [Style Guide](docs/StyleGuide.md)       |
 | Kollisionen     | Auflistung der Kollisionen          | [Kollisionen](docs/Kollisionen.md)      |
-| Debug & Archiv  | Auflistung aller Bugs & Fehler      | [TODO](docs/Debugging/DebugArchiv.md)   |
+| Debug & Archiv  | Auflistung aller Bugs & Fehler      | [Debug](docs/Debugging/DebugArchiv.md)  |
 |                 |                                     |                                         |
