@@ -81,9 +81,11 @@
 - Links zu den Anderen Docs durch doc übersicht verkleinert
 - Doc zum Dokumentieren und auflisten aller Docs im projekt
 
-## 📅 30.01.2026 - Dokumentations vervollständigung     |Freitag
+## 📅 30.01.2026 - Nox Works     |Freitag
 
-- Noch geplant
+- Repo auf neuen dev Account gewechselt
+- NoxWorks erstellt und mit itch.io verbunden
+- GitHub und itch.io verbunden
 
 ----
 
