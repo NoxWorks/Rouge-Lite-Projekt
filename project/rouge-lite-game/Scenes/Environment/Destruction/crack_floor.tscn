@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0dmqnpfpl4i7"]
+
+[ext_resource type="Texture2D" uid="uid://dbi5wsal3fvyx" path="res://assets/sprites/Platzhalter/Crack_Floor.png" id="1_nme48"]
+
+[node name="Crack_Floor" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_nme48")

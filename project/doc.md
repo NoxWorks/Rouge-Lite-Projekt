@@ -15,7 +15,6 @@
 | Roadmap       | Ungefährer Projektablauf          | [Roadmap](docs/Roadmap.md)     |
 | Assets        | Auflistung aller Assets           | [Assets](docs/Assets.md)       |
 | Dungeon       | Dungeon Generierungs Algorithmen  | [Dungeon](docs/Dungeon.md)     |
-| Begriffe      | Game dev Spezifische Begriffe     | [Begriffe](docs/Begriffe.md)   |
 |               |                                   |                                |
 
 ## 👨‍💻 Entwickler Dokumentationen
@@ -28,4 +27,5 @@
 | Style Guide     | Richtlinien zum verfassen der Docs  | [Style Guide](docs/StyleGuide.md)       |
 | Kollisionen     | Auflistung der Kollisionen          | [Kollisionen](docs/Kollisionen.md)      |
 | Debug & Archiv  | Auflistung aller Bugs & Fehler      | [Debug](docs/Debugging/DebugArchiv.md)  |
+| Setup           | Auflistung aller Dev tools          | [Setup](docs/Setup.md)                  |
 |                 |                                     |                                         |

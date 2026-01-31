@@ -20,6 +20,9 @@ config/icon="res://assets/sprites/icon.svg"
 [file_customization]
 
 folder_colors={
+"res://Scenes/": "purple",
+"res://Scenes/Environment/": "orange",
+"res://Scenes/Player/": "red",
 "res://assets/": "pink",
 "res://assets/sprites/": "blue",
 "res://assets/tiles/": "gray",

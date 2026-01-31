@@ -121,4 +121,6 @@
 #### 🐍 Externe Programme für die Entwicklung & QoL
 
 - [ ] Automatisches Python Script zum Skalieren der Sprites in der Sprite Bibliothek
+- [ ] Godot Plugin für sortierung von Scenes im instanzierungs menü (Tags, filter & Ordner)
+- [ ] Godot Plugin zum ändern des Preview bildes nach erstellung der Scene
 - [ ] Arbeitsspeicher Upgrade

@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://bihk3qf2pmbcp"]
+
+[ext_resource type="Texture2D" uid="uid://dkj1k0jgp6b3" path="res://assets/sprites/Platzhalter/Yellow_Flower.png" id="1_tag0a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tag0a"]
+size = Vector2(6, 5)
+
+[node name="Flower_Yellow" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tag0a")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 4.5)
+shape = SubResource("RectangleShape2D_tag0a")

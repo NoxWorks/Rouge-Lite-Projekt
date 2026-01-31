@@ -12,7 +12,7 @@
 
 ----
 
-## 📅 02.01.2026 - Konzipierung und Ideensammlung |Freitag
+## 📅 02.01.2026 - Konzipierung & Ideensammlung |Freitag
 
 - Ideen gesammelt und Frühe Konzipierung
 - Story Verlauf und Welt des Spiels
@@ -81,11 +81,19 @@
 - Links zu den Anderen Docs durch doc übersicht verkleinert
 - Doc zum Dokumentieren und auflisten aller Docs im projekt
 
-## 📅 30.01.2026 - Nox Works     |Freitag
+## 📅 30.01.2026 - Nox & NoxWorks    |Freitag
 
 - Repo auf neuen dev Account gewechselt
 - NoxWorks erstellt und mit itch.io verbunden
 - GitHub und itch.io verbunden
+
+## 📅 31.01.2026 - Docs, Sprites, Itch  |Samstag
+
+- Setup doc mit ersten Daten gefüllt
+- Sprites für: Dummy, Boden crack, Blume(Gelb), Hebel(An; aus), erstellt
+- Enemy base Scene erstellt
+- Code für base scene anhand der Skizzierung implementiert
+- Dummy Scene erstellt & mit Passendem Sprite gefüllt
 
 ----
 

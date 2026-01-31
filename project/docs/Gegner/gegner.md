@@ -24,6 +24,14 @@ Diese Seite dokumentiert die geplante Struktur und das Verhalten von Gegnern im 
 
 ### Eigenschaften
 
+- @export no_ai: bool - Stellt gegner "Dumm"
+
+- @export is_boss: bool - Ändert Gegner zu Boss um
+
+- @export can_fly: bool - Toggle fürs fliegen
+
+- @export can_walk: bool - Toggle fürs laufen
+
 - max_hp: float – Maximale Lebenspunkte
 
 - current_hp: float – Aktuelle Lebenspunkte
@@ -34,7 +42,7 @@ Diese Seite dokumentiert die geplante Struktur und das Verhalten von Gegnern im 
 
 - is_alive: bool – Status, ob der Gegner lebt
 
-- Methoden
+#### Methoden
 
 - TakeDamage(float amount) – Reduziert HP, prüft auf Tod
 
@@ -48,17 +56,17 @@ Diese Seite dokumentiert die geplante Struktur und das Verhalten von Gegnern im 
 
 ### 1. Pendler
 
-- Beschreibung
+#### Beschreibung
 
 - Bewegt sich konstant zwischen zwei Richtungen (z. B. oben/unten), bis er stirbt oder eine Wand erreicht.
 
-- Zusätzliche Eigenschaften
+#### Zusätzliche Eigenschaften
 
 - direction: Vector2 – Bewegungsrichtung (exportiert für Editor)
 
 - collision_check: bool – Prüft auf Wandkontakt
 
-- Verhalten
+#### Verhalten
 
 - Bewegung in Richtung mit gegebener Geschwindigkeit
 
@@ -68,11 +76,11 @@ Diese Seite dokumentiert die geplante Struktur und das Verhalten von Gegnern im 
 
 ### 2. Dummy
 
-- Beschreibung
+#### Beschreibung Dummy
 
 - Steht still, dient zum Testen von Schaden und Animationen.
 
-- Verhalten
+#### Verhalten Dummy
 
 - Keine Bewegung
 
