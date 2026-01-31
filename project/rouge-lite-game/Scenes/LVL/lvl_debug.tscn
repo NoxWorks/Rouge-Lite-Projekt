@@ -5,10 +5,10 @@
 [ext_resource type="PackedScene" uid="uid://cw1vlvfa38djp" path="res://Scenes/Player/player.tscn" id="2_lc5w2"]
 [ext_resource type="PackedScene" uid="uid://pofu76v18xsg" path="res://Scenes/Environment/Furniture/desk.tscn" id="3_k48cs"]
 [ext_resource type="PackedScene" uid="uid://bgarh47pdtykq" path="res://Scenes/LVL Assets/exit_portal.tscn" id="5_mvkwj"]
-[ext_resource type="PackedScene" uid="uid://visd43mukqgp" path="res://Scenes/Enemy/Enemys/enemy_devil.tscn" id="6_624sa"]
 [ext_resource type="PackedScene" uid="uid://co7jpxusr8spw" path="res://Scenes/Enemy/Enemys/dummy.tscn" id="7_e7jbs"]
 [ext_resource type="PackedScene" uid="uid://b0dmqnpfpl4i7" path="res://Scenes/Environment/Destruction/crack_floor.tscn" id="7_tt4v0"]
 [ext_resource type="PackedScene" uid="uid://bihk3qf2pmbcp" path="res://Scenes/Environment/Furniture/flower_yellow.tscn" id="8_iq3ro"]
+[ext_resource type="PackedScene" uid="uid://ba7c50eyr16ut" path="res://Scenes/Switch/Switches/lever_on_off.tscn" id="10_oxjty"]
 
 [node name="LVL_DEBUG" type="Node2D"]
 
@@ -58,11 +58,10 @@ end_game = true
 
 [node name="Enemys" type="Node" parent="Ysort"]
 
-[node name="Enemy_Devil" parent="Ysort/Enemys" instance=ExtResource("6_624sa")]
-position = Vector2(-117, -138)
-
 [node name="Dummy" parent="Ysort/Enemys" instance=ExtResource("7_e7jbs")]
 position = Vector2(88, -216)
+debug = true
+current_hp = 10.0
 
 [node name="Decor" type="Node" parent="Ysort"]
 
@@ -82,3 +81,9 @@ position = Vector2(-143, -4)
 [node name="Desk2" parent="Ysort/Decor/Furniture" instance=ExtResource("3_k48cs")]
 position = Vector2(338, -2)
 scale = Vector2(1.4977202, 1.5)
+
+[node name="Switches" type="Node" parent="Ysort"]
+
+[node name="Lever_ON_OFF" parent="Ysort/Switches" instance=ExtResource("10_oxjty")]
+position = Vector2(88, -179)
+is_lever = true

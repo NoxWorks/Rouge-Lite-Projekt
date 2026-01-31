@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://binc0372g417t"]
+
+[ext_resource type="PackedScene" uid="uid://bbr7y54efverh" path="res://Scenes/Enemy/enemy.tscn" id="1_7mhqe"]
+[ext_resource type="Texture2D" uid="uid://dqdfeqr6cpu6t" path="res://assets/sprites/Platzhalter/Gegner.png" id="2_xdpp2"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4l152"]
+atlas = ExtResource("2_xdpp2")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_eq3ah"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4l152")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7mhqe"]
+radius = 9.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_8fn5k"]
+
+[node name="Red_Devil" instance=ExtResource("1_7mhqe")]
+collision_layer = 4
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="0"]
+sprite_frames = SubResource("SpriteFrames_eq3ah")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="1"]
+visible = false
+shape = SubResource("CircleShape2D_7mhqe")
+
+[node name="Area2D" type="Area2D" parent="." index="2"]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
+shape = SubResource("CircleShape2D_8fn5k")

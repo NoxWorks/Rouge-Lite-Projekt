@@ -1,6 +1,6 @@
 class_name Enemy extends CharacterBody2D
 
-const MAX_HP : float = 1000.00  # Maximale Gegner HP || IMMER ANPASSEN
+const MAX_HP : float = 1000.00  # Maximale Gegner HP
 
 var fly_speed : float = 1.50
 var walk_speed : float = 1.00
@@ -28,26 +28,24 @@ func _ready() -> void:
 	if no_ai:
 		return
 	
-	if is_boss:
-		current_hp *= 3.00
-		damage *= 2.00
-		speed *= 0.80
-	
 
 func take_damage(amount : float) -> void:
 	current_hp -= amount * shield # Kalkuliert den schaden der genommen wird
 	
 	if debug:
-		print("Enemy took", amount," damage")
-		print("Hp now", current_hp)
+		print("Enemy took", amount,"  damage")
+		print("Hp now ", current_hp)
 	
 	if current_hp <= 0:
 		is_alive = false
+	
+	if not is_alive:
 		die()
 	
 
 func die() -> void:
 	queue_free()
+	
 
 func move(_delta: float) -> void:
 	pass

@@ -1,0 +1,53 @@
+[gd_scene load_steps=8 format=3 uid="uid://ba7c50eyr16ut"]
+
+[ext_resource type="PackedScene" uid="uid://dfxa0rea8t7pg" path="res://Scenes/Switch/switch.tscn" id="1_ku5k5"]
+[ext_resource type="Texture2D" uid="uid://lph7lm4e84jx" path="res://assets/sprites/Platzhalter/Lever.png" id="2_pea3p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j7cbn"]
+atlas = ExtResource("2_pea3p")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_acich"]
+atlas = ExtResource("2_pea3p")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3dfel"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j7cbn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_acich")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ku5k5"]
+radius = 9.013878
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ku5k5"]
+size = Vector2(14, 4)
+
+[node name="Lever_ON_OFF" instance=ExtResource("1_ku5k5")]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." index="0"]
+sprite_frames = SubResource("SpriteFrames_3dfel")
+
+[node name="Area2D" type="Area2D" parent="." index="1"]
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" index="0"]
+position = Vector2(0, 2.5)
+shape = SubResource("CircleShape2D_ku5k5")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." index="2"]
+collision_layer = 32
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" index="0"]
+position = Vector2(0, 5)
+shape = SubResource("RectangleShape2D_ku5k5")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
