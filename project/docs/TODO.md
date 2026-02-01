@@ -58,7 +58,8 @@
 
 - [X] Platzhalter Tileset
 - [ ] Tileset für Dungeon erstellen
-- [ ] Hub designen
+- [ ] Hub designen (Das Labor)
+- [ ] Tentakel sprites
 
 ### 💻 UI & HUD
 

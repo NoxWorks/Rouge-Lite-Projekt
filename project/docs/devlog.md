@@ -95,6 +95,12 @@
 - Code für base scene anhand der Skizzierung implementiert
 - Dummy Scene erstellt & mit Passendem Sprite gefüllt
 
+## 📅 01.02.2026 - Story layout, Alien desgin   |Sonntag
+
+- Design Document angefangen
+- Alien design geplant
+- Tentakel desig Geplant
+
 ----
 
 ## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren

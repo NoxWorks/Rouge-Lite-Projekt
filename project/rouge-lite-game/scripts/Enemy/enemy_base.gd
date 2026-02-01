@@ -12,12 +12,10 @@ var walk_speed : float = 1.00
 @export var is_boss : bool = false # Für Bossgegner (Ändert stats & animationen)
 @export var can_fly : bool = false # Für fliegende Gegner
 @export var can_walk : bool = false # Für laufende Gegner
-
 @export_category("Stats")
 @export var current_hp : float = MAX_HP
 @export var damage : float = 2.50
 @export var speed : float = 1.00
-
 @export_category("Multiplier")
 @export var shield : float = 1.00 # Change to decrease/increase damage taken
 @export var strength : float = 1.00 # Change to decrease/increase damage delt
@@ -31,10 +29,6 @@ func _ready() -> void:
 
 func take_damage(amount : float) -> void:
 	current_hp -= amount * shield # Kalkuliert den schaden der genommen wird
-	
-	if debug:
-		print("Enemy took", amount,"  damage")
-		print("Hp now ", current_hp)
 	
 	if current_hp <= 0:
 		is_alive = false
@@ -53,6 +47,7 @@ func move(_delta: float) -> void:
 func attack() -> void:
 	pass
 
-
-func _on_area_2d_body_entered(_body: Node2D) -> void:
-	print("Player entered")
+## Required for the player to take damage
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body.name == "Player":
+		print("Player entered")

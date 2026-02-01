@@ -60,7 +60,6 @@ end_game = true
 
 [node name="Dummy" parent="Ysort/Enemys" instance=ExtResource("7_e7jbs")]
 position = Vector2(88, -216)
-debug = true
 current_hp = 10.0
 
 [node name="Decor" type="Node" parent="Ysort"]
