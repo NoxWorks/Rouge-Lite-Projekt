@@ -103,4 +103,15 @@
 
 ----
 
+## 📅 __02.02.2026 - 06.02.2026__ - Entwicklungspause & Story überarbeitung
+
+- Pause vom Entwickeln und Dokumentieren
+- Story nochmal komplett überarbeitet
+- Hardwareplanung
+- Softwareplanung
+- Genauere Entwicklung vorgeplant
+- Von jetzt an wird englisch gearbeitet (Nicht in der Dokumentation)
+
+----
+
 ## Dieses Devlog wird fortlaufend ergänzt, um den Entwicklungsverlauf transparent und nachvollziehbar zu dokumentieren
